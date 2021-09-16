@@ -21,7 +21,7 @@ public class databaseCon {
          try{
         String url="jdbc:mysql://localhost:3306/UniManSys";
         String user="root";
-        String password="3315@26Rix";
+        String password="";
          con=DriverManager.getConnection(url, user, password);
         //System.out.println("Connected");
         s=con.createStatement();
